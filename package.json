@@ -1,0 +1,16 @@
+{
+  "name": "awesome-motive-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass src/scss/main.scss dist/css/main.css",
+    "watch:scss": "node-sass src/scss/main.scss dist/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
